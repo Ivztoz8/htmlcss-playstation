@@ -78,6 +78,10 @@
     height: auto;
 }
 
+.opacity:hover{
+    filter: opacity(1);
+}
+
 /* TODO Utility */
 
 a{
@@ -90,4 +94,8 @@ a{
 
 .ms_border_rad{
     border-radius: 10px;
+}
+
+.opacity{
+    filter: opacity(0.5);
 }
