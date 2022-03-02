@@ -82,6 +82,10 @@
     filter: opacity(1);
 }
 
+/* TODO Half-Jumbo Section */
+
+
+
 /* TODO Utility */
 
 a{
@@ -98,4 +102,8 @@ a{
 
 .opacity{
     filter: opacity(0.5);
+}
+
+.rcircled{
+    font-size: 0.4em;
 }
