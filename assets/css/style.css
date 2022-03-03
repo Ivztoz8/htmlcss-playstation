@@ -107,3 +107,27 @@ a{
 .rcircled{
     font-size: 0.4em;
 }
+
+.circled1{
+    font-size: 0.8em;
+}
+
+.ms_bgclgrayself{
+    background-color: rgb(189, 187, 185);
+}
+
+.ms-colorlighgray{
+    background-color: lightgray;
+}
+
+.ms-colormadepurp{
+    background-color: rgb(33, 21, 62);
+}
+
+.ms-textcolormadepurp{
+    color: rgb(33, 21, 62);
+}
+
+.ms_colormadepurpbl{
+    background-color: rgb(45, 0, 157);
+}
