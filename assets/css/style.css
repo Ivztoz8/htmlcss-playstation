@@ -1,12 +1,5 @@
 /* My class */
 
-/* TODO Reset */
-.ms_reset_html{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;    
-}
-
 /* TODO Blackbar Sony */
 .ms_blackbarsony{
     display: flex;
@@ -45,7 +38,7 @@
 
 
 #returnallogo{
-    display: inline-block;
+    display: flex;
     width: 50%;
     height: auto;
 }
@@ -54,12 +47,6 @@
     display: inline-block;
     width: 100%;
     height: auto; 
-}
-
-/* TODO PS5 Section*/
-
-.borderb_cl_lbl:hover{
-    border-bottom: 2px solid rgb(54, 97, 211);
 }
 
 /* TODO Jumbo 2 Section */
@@ -79,9 +66,44 @@
     height: auto;
 }
 
+/* TODO Hover Utility */
+
 .opacity:hover{
     filter: opacity(1);
 }
+
+.borderb_cl_lbl:hover{
+    border-bottom: 2px solid rgb(54, 97, 211);
+}
+
+.opacity:hover{
+    filter: opacity(1);
+}
+
+.buttonhoborder:hover{
+    display: flex;
+    border: 3px solid rgb(33, 36, 41);
+    box-shadow: inset 0 0 0 0.2em white;
+}
+
+.buttonhoborder1:hover{
+    display: flex;
+    border: 3px solid rgb(235, 0, 52);
+    box-shadow: inset 0 0 0 0.2em white;
+}
+
+.buttonhoborder2:hover{
+    display: flex;
+    border: 3px solid rgb(76, 0, 255);
+    box-shadow: inset 0 0 0 0.2em white;
+}
+
+.buttonhoborder3:hover{
+    display: flex;
+    border: 3px solid rgb(211, 211, 211);
+    box-shadow: inset 0 0 0 0.2em white;
+}
+
 
 
 /* TODO Mod Tags */
@@ -89,7 +111,23 @@ a{
     text-decoration: none;
 }
 
+p.ms_pjumbo {
+    font-size: 0.8em;
+}
+
 /* TODO Utility */
+
+.buttonhoborder1{
+    display: flex;
+}
+
+.buttonhoborder2{
+    display: flex;
+}
+
+.buttonhoborder3{
+    display: flex;
+}
 
 .ms_clblk{
     color: black;
@@ -110,6 +148,11 @@ a{
 .circled1{
     font-size: 0.8em;
 }
+
+.circled2{
+    font-size: 0.9em;
+}
+
 
 .ms_bgclgrayself{
     background-color: rgb(189, 187, 185);
@@ -196,13 +239,5 @@ a{
         display: inline-block;
         width: 70%;
         height: auto;
-    }
-    
-    .opacity:hover{
-        filter: opacity(1);
-    }
-
-    p.ms_pjumbo {
-        font-size: 0.8em;
     }
 }
